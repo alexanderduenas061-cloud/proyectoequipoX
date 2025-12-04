@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio Dental Sonrisa Feliz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Clínica Dental Sonrisa Feliz</h1>
+            <nav class="nav">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#equipo" class="nav-link">Equipo</a>
+                <a href="#citas" class="nav-link">Citas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="principal" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Diseñando Sonrisas Saludables en Ocotlán.</h2>
+                    <p>Tu salud bucal es nuestra prioridad. Contamos con 5 especialidades y un equipo de expertos dedicados a brindarte la mejor atención de la región.</p>
+                    <a href="#citas" class="btn btn-primary">Solicita tu Cita Hoy</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="section-padding">
+            <div class="container">
+                <h2>Nuestras Especialidades</h2>
+                <div class="servicios-grid">
+                    <article class="card service-card">
+                        <h3>Ortodoncia</h3>
+                        <p>Alineación perfecta para una sonrisa hermosa y funcional. Incluye brackets y alineadores invisibles.</p>
+                    </article>
+                    <article class="card service-card">
+                        <h3>Endodoncia</h3>
+                        <p>Salvando dientes naturales. Tratamientos de conducto sin dolor, con la mejor tecnología.</p>
+                    </article>
+                    <article class="card service-card">
+                        <h3>Cirugía Maxilofacial</h3>
+                        <p>Procedimientos quirúrgicos avanzados y extracciones complejas con máxima seguridad.</p>
+                    </article>
+                    <article class="card service-card">
+                        <h3>Periodoncia</h3>
+                        <p>Cuidado de encías y prevención de enfermedades periodontales para mantener la base de tu sonrisa.</p>
+                    </article>
+                    <article class="card service-card">
+                        <h3>Odontopediatría</h3>
+                        <p>La mejor atención dental para niños, haciendo de la visita al dentista una experiencia positiva.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo" class="section-padding bg-light">
+            <div class="container">
+                <h2>Conoce a Nuestros Dentistas</h2>
+                <div class="equipo-grid">
+                    <article class="card team-card">
+                        <img src="img/01.webp" alt="Dra. Laura Gómez - Ortodoncista">
+                        <h3>Dra. Laura Gómez</h3>
+                        <p>Especialidad: Ortodoncia</p>
+                    </article>
+                    <article class="card team-card">
+                        <img src="img/02.webp" alt="Dr. Ricardo Márquez - Endodoncista">
+                        <h3>Dr. Ricardo Márquez</h3>
+                        <p>Especialidad: Endodoncia</p>
+                    </article>
+                    <article class="card team-card">
+                        <img src="img/03.webp" alt="Dra. Sofía Hernández - Cirugía">
+                        <h3>Dra. Sofía Hernández</h3>
+                        <p>Especialidad: Cirugía Maxilofacial</p>
+                    </article>
+                    <article class="card team-card">
+                        <img src="img/04.webp" alt="Dr. Jorge Treviño - Periodoncista">
+                        <h3>Dr. Jorge Treviño</h3>
+                        <p>Especialidad: Periodoncia</p>
+                    </article>
+                    <article class="card team-card">
+                        <img src="img/05.webp" alt="Dra. Ana Ramírez - Odontopediatra">
+                        <h3>Dra. Ana Ramírez</h3>
+                        <p>Especialidad: Odontopediatría</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="citas" class="section-padding">
+            <div class="container container-small">
+                <h2>Solicitar Cita</h2>
+                <form id="citaForm" class="form-style">
+                    
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" placeholder="Ej: Juan Pérez" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono (10 dígitos):</label>
+                        <input type="tel" id="telefono" placeholder="Ej: 3312345678" required pattern="[0-9]{10}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="especialidad">Especialidad Requerida:</label>
+                        <select id="especialidad" required>
+                            <option value="">-- Seleccione una especialidad --</option>
+                            <option value="Ortodoncia">Ortodoncia</option>
+                            <option value="Endodoncia">Endodoncia</option>
+                            <option value="Cirugía Maxilofacial">Cirugía Maxilofacial</option>
+                            <option value="Periodoncia">Periodoncia</option>
+                            <option value="Odontopediatría">Odontopediatría</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fechaHora">Fecha y Hora Preferida:</label>
+                        <input type="datetime-local" id="fechaHora" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-success">Enviar Solicitud</button>
+
+                    <p id="mensaje" class="form-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Clínica Dental CBTIS 49 | Desarrollado con octavio</p>
+            <p class="contact-info">Ubicación: Ocotlán, Jalisco.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
