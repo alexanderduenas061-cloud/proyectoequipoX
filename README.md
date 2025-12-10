@@ -6,7 +6,7 @@ Aplicación web desarrollada para la Clínica Dental Sonrisa Feliz con el objeti
 ## 👥 Integrantes del Equipo
 JOSUE EMMANUEL LEMUS REYES - Líder de Equipo / 
 LOZA AYALA DAVID ISRAEL- LOGICA
-J ALEXSANDER GUILLERMO RODRIGUEZ DUEÑAS- DISEÑO, HTML CSS
+J ALEXSANDER GUILLERMO RODRIGUEZ DUEÑAS- DISEÑO, HTML CSSgit 
 
 ## 🛠️ Tecnologías Usadas
 * HTML5

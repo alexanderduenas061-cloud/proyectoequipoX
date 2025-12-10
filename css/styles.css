@@ -1,13 +1,13 @@
 
 :root {
-    --color-primary: #007bff; /* Azul profesional */
-    --color-secondary: #28a745; /* Verde de éxito */
+    --color-primary: #007bff; 
+    --color-secondary: #28a745;
     --color-text-dark: #333;
     --color-text-light: #fff;
     --color-background-light: #f8f9fa;
     --color-background-gray: #e9ecef;
     --font-main: 'Poppins', sans-serif;
-    --shadow-light: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --shadow-light: 0 4px 12px rgba(70, 18, 18, 0.1);
 }
 
 
@@ -96,7 +96,7 @@ h2 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Overlay oscuro para mejor lectura */
+    background: rgba(0, 0, 0, 0.4); 
     z-index: 1;
 }
 
@@ -178,7 +178,7 @@ h2 {
 }
 
 .team-card {
-    width: 220px; /* Ancho fijo */
+    width: 220px; 
     transition: transform 0.3s;
 }
 
